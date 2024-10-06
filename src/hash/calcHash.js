@@ -1,5 +1,5 @@
 import { createReadStream } from 'node:fs';
-  import { createHash } from 'node:crypto';
+import { createHash } from 'node:crypto';
 
 const calculateHash = async () => {
     const hash = createHash('sha256');
